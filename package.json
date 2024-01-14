@@ -1,0 +1,15 @@
+{
+  "name": "cbmen",
+  "version": "1.4.1",
+  "description": "Automatically start a backend boiler plate based in MongoDB, Express and NodeJS",
+  "type": "module",
+  "bin": "./bin/cli.js",
+  "scripts": {
+  },
+  "keywords": [
+    "cbmen",
+    "Config-Backend with MongoDB, Express and NodeJS"
+  ],
+  "author": "Sachidanand",
+  "license": "ISC"
+}
