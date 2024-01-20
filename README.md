@@ -16,6 +16,8 @@ Github repo: https://github.com/navik11/cbmen
 
 To use cbmen, you need to have Node.js, npm and bash installed on your machine.
 
+First of all initialize your project by `npm init` and then
+
 ```bash
 npm i -D cbmen && npx cbmen
 ```

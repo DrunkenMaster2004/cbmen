@@ -1,4 +1,4 @@
-npm init && npm i dotenv mongoose express cors && touch .gitignore README.md .env && read -p "PORT: " port && read -p "CORS origin: " cors && read -p "MongoDB connection uri: " mongoUri && read -p "MongoDB database name: " dbname && echo "PORT=$port
+npm i dotenv mongoose express cors && touch .gitignore README.md .env && read -p "PORT: " port && read -p "CORS origin: " cors && read -p "MongoDB connection uri: " mongoUri && read -p "MongoDB database name: " dbname && echo "PORT=$port
 MONGODB_URI = $mongoUri
 CORS_ORIGIN = $cors" > .env  && mkdir public src && cd public && mkdir temp && cd temp && touch .gitkeep && cd ../.. && cd src && touch index.js constants.js app.js && echo "export const DB_NAME = \"$dbname\"" > constants.js && mkdir controllers middlewares utils routes db models && cd utils && touch asyncHandler.js ApiErrorRes.js && echo 'const asyncHandler = (requestHandler) => {
     return (req, res, next) => {
