@@ -2,7 +2,7 @@
 
 cbmen- Config-Backend with MongoDB, Express and NodeJS, is an npm package that helps you kickstart your backend project with a well-organized structure. It also provides the flexibility to install important additional libraries, saving you time and effort.  
 
-Github repo: https://github.com/navik11/cbmen
+
 
 ## Features
 
@@ -54,5 +54,3 @@ project-root
 
 ## Feedback and Support
 
-For any issues, feedback, or support, please contact me  
-Sachida, navik09.me@gmail.com | sachidanan22@iitk.ac.in
